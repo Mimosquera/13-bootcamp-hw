@@ -4,7 +4,7 @@
 The **Candidate Search Application** is a React and TypeScript-based web application that allows employers to search for potential candidates using the GitHub API. Users can browse through candidate profiles, accept or reject candidates, and save selected profiles to a list for later review. The application leverages local storage to persist saved candidates and is deployed using **Render**.
 
 ## 🚀 Live Demo
-🔗 [Deployed Application URL](#) *(Add the Render deployment link here)*
+🔗 [Deployed Application URL](https://one3-bootcamp-hw.onrender.com)
 
 ## ✨ Features
 - 🔍 Fetches GitHub user profiles via the **GitHub API**
