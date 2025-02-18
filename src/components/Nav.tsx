@@ -1,8 +1,38 @@
-const Nav = () => {
-  // TODO: Add necessary code to display the navigation bar and link between the pages
+import { NavLink } from "react-router-dom";
+import React from "react";
+
+const Nav: React.FC = () => {
   return (
-    <div>Nav</div>
-  )
+    <nav
+      style={{
+        display: "flex",
+        width: "100vw",
+        boxSizing: "border-box",
+        padding: "50px 50px 20px 50px",
+        justifyContent: "left",
+      }}
+    >
+      <NavLink
+        to="/"
+        style={{
+          marginRight: "50px",
+          color: "white",
+          fontSize: "15px",
+        }}
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="/SavedCandidates"
+        style={{
+          color: "white",
+          fontSize: "15px",
+        }}
+      >
+        Potential Candidates
+      </NavLink>
+    </nav>
+  );
 };
 
 export default Nav;
